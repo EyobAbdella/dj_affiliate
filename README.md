@@ -32,6 +32,14 @@ pip install git+https://github.com/EyobAbdella/dj_affiliate.git
        "dj_affiliate.middleware.AffiliateMiddleware",
    ]
    ```
+3. migrate:
+   ```bash
+   python3 manage.py makemigrations
+   ```
+
+   ```bash
+   python3 manage.py migrate
+   ```
 
 ### Usage
 
